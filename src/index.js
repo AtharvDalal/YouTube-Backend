@@ -1,6 +1,5 @@
 import connectDB from "./db/index.js";
 import { app } from "./app.js";
-let a = 10; // ci demo
 connectDB()
   .then(() => {
     app.listen(process.env.PORT || 8001, () => {
